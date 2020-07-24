@@ -41,7 +41,6 @@ const types = `
     price: String
     highlight: String
     image: [String]
-    audio: String
     model: String
     category: Categories
     subcategory: Subcategories
@@ -93,7 +92,6 @@ const types = `
     price: String!
     highlight: Upload
     image: [Upload]
-    audio: Upload
     model: String
     category: CategoriesInput
     subcategory: SubCategoryInput

@@ -16,10 +16,10 @@ export default  {
   },
   db: {
     mongo: {
-      development: 'mongodb://127.0.0.1:27017/verticeaudio',
-      heroku: 'mongodb+srv://neruson:n3rus0n@orinoco27-i9v0z.mongodb.net/vertice?retryWrites=true&w=majority',
-      production: 'mongodb://127.0.0.1:27017/verticeaudio'
-      // production: 'mongodb+srv://neruson:n3rus0n@orinoco27-i9v0z.mongodb.net/vertice?retryWrites=true&w=majority'
+      development: 'mongodb://127.0.0.1:27017/macaldy',
+      heroku: 'mongodb+srv://neruson:n3rus0n@orinoco27-i9v0z.mongodb.net/macaldy?retryWrites=true&w=majority',
+      // production: 'mongodb://127.0.0.1:27017/macaldy'
+      production: 'mongodb+srv://neruson:n3rus0n@orinoco27-i9v0z.mongodb.net/vertice?retryWrites=true&w=majority'
     },
     debug: true
   },
