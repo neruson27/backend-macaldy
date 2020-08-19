@@ -46,9 +46,7 @@ const types = `
     subcategory: Subcategories
     tags: [Tag]
     ref: String
-    ctd: Int
     quantity: Int
-    important: Boolean
     createdAt: Date
   }
 
@@ -97,8 +95,6 @@ const types = `
     subcategory: SubCategoryInput
     tags: [TagsInput]
     ref: String!
-    ctd: Int!
-    important: Boolean
   }
 `
 const queries = `

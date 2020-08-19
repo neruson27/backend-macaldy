@@ -60,18 +60,17 @@ const ProductSchema = new mongoose.Schema({
   },
   description: {
     type: String,
-    required: true
   },
   description_long: {
     type: String,
-    required: true
   },
   price: {
     type: String,
     required: true
   },
   highlight: {
-    type: String
+    type: String,
+    required: true
   },
   image:{
     type: [String]
@@ -84,8 +83,7 @@ const ProductSchema = new mongoose.Schema({
   //   required: true
   // },
   model: {
-    type: String,
-    required: true
+    type: String
   },
   category: {
     type: {CategoriesSchema}
@@ -98,14 +96,8 @@ const ProductSchema = new mongoose.Schema({
   },
   ref: {
     type: String,
-    unique: true
-  },
-  ctd: {
-    type: Number
-  },
-  important: {
-    type: Boolean,
-    default: false
+    unique: true,
+    required: true
   },
   createdAt: {
     type: Date,
