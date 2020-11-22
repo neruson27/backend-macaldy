@@ -26,8 +26,8 @@ const types = `
     subcategory: SubCategoryInput
     tags: [TagsInput]
     ref: String
-    ctd: Int
-    important: Boolean
+    #ctd: Int
+    #important: Boolean
     createdAt: Date
     quantity: Int
   }
